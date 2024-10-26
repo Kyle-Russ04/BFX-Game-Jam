@@ -1,0 +1,884 @@
+fileFormatVersion: 2
+guid: cdec389782c4d264a94495277a0f8702
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WallAnimation
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 0
+        width: 54
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b403a4d8066ae4dbdec02036b0fedd
+      internalID: 1007348467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Wall_Anim_1
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 0
+        width: 54
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a139faf20b7754cbb7024b3e870ea4
+      internalID: 689228866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Wall_Anim_2
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 0
+        width: 54
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779ddc19959006e40bc1b68b5387fca2
+      internalID: -676634265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Wall_Anim_3
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 0
+        width: 54
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d93173b8d4cd445bbad6c5ae33a54f
+      internalID: 1138101522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Wall_Anim_4
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 0
+        width: 54
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00617d3601ddfc41b3992dc3f84f40b
+      internalID: -263636519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Wall_Anim_5
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 0
+        width: 53
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d37d15a3c7cd441965319ff6370c9a
+      internalID: -1245731096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Wall_Anim_6
+      rect:
+        serializedVersion: 2
+        x: 2054
+        y: 0
+        width: 54
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d813188ccc229844d931f6aa74250439
+      internalID: -415485621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Wall_Anim_7
+      rect:
+        serializedVersion: 2
+        x: 2372
+        y: 0
+        width: 53
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16db9f99a6849b5449358feaca20bdac
+      internalID: 276339247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Wall_Anim_8
+      rect:
+        serializedVersion: 2
+        x: 2694
+        y: 0
+        width: 54
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88da4818bd18b8b43a4be44d6a65996a
+      internalID: -423461246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Wall_Anim_9
+      rect:
+        serializedVersion: 2
+        x: 3011
+        y: 0
+        width: 54
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9e27c8f4279cf468cb8cf009dfa8a6
+      internalID: 653125221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Wall_Anim_10
+      rect:
+        serializedVersion: 2
+        x: 3333
+        y: 0
+        width: 55
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9135677ded85e4dbb56efaf61902cf
+      internalID: 1659335990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Wall_Anim_11
+      rect:
+        serializedVersion: 2
+        x: 3652
+        y: 0
+        width: 53
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de4416a27e9b9a4a9f570b42ba808a0
+      internalID: 1528174054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Wall_Anim_12
+      rect:
+        serializedVersion: 2
+        x: 3973
+        y: 0
+        width: 54
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a2cbb0c3d80f04298a24f9a82d3b5b
+      internalID: 1896148568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Wall_Anim_13
+      rect:
+        serializedVersion: 2
+        x: 4292
+        y: 0
+        width: 53
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca1489d2e83fe146ad94ccc0dd11e58
+      internalID: -1234069436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Wall_Anim_14
+      rect:
+        serializedVersion: 2
+        x: 4613
+        y: 0
+        width: 54
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab90fe34172eb44599d78218ee2e614
+      internalID: -2112226194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Wall_Anim_15
+      rect:
+        serializedVersion: 2
+        x: 4933
+        y: 0
+        width: 52
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0a1e7e57aed604583909e16772f6b2
+      internalID: -2083694273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Wall_Anim_16
+      rect:
+        serializedVersion: 2
+        x: 5253
+        y: 0
+        width: 54
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeca824e37dbab14eaf791b906d8bf8a
+      internalID: -1168407773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Wall_Anim_17
+      rect:
+        serializedVersion: 2
+        x: 5573
+        y: 0
+        width: 54
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17355958a384664bbb37d6dc4ea2d69
+      internalID: 162835768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Wall_Anim_18
+      rect:
+        serializedVersion: 2
+        x: 5893
+        y: 0
+        width: 54
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2dfddf744933c4fa889c1fbd6cb71e
+      internalID: -1014462982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Wall_Anim_19
+      rect:
+        serializedVersion: 2
+        x: 6215
+        y: 0
+        width: 52
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cbf44be9d92de14ea4cf076802cddca
+      internalID: 1401434855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Wall_Anim_20
+      rect:
+        serializedVersion: 2
+        x: 6533
+        y: 0
+        width: 54
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2dc1f097808ce144a4dac6f2d8c9502
+      internalID: 136288760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Wall_Anim_21
+      rect:
+        serializedVersion: 2
+        x: 6855
+        y: 0
+        width: 52
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356bfef716eacf847961dae2b78e03a0
+      internalID: -52006322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Wall_Anim_22
+      rect:
+        serializedVersion: 2
+        x: 7173
+        y: 0
+        width: 54
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8bb365caa3ff3a43a22df00ea0a529a
+      internalID: 711271540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Wall_Anim_23
+      rect:
+        serializedVersion: 2
+        x: 7495
+        y: 0
+        width: 53
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e14976d285306e41a55cbed0169323c
+      internalID: -560792689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Wall_Anim_24
+      rect:
+        serializedVersion: 2
+        x: 7812
+        y: 0
+        width: 55
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f29e7512cfad24a90d43ca8e1dc85d
+      internalID: -2082507514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Wall_Anim_25
+      rect:
+        serializedVersion: 2
+        x: 8135
+        y: 0
+        width: 53
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8241809384789d0469109a705a36ea27
+      internalID: 159649659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Wall_Anim_26
+      rect:
+        serializedVersion: 2
+        x: 8452
+        y: 0
+        width: 54
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f007f6ae41e2e484db25b36f14748d88
+      internalID: 1170259231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Wall_Anim_27
+      rect:
+        serializedVersion: 2
+        x: 8775
+        y: 0
+        width: 53
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241840b3321ad0049ad8882e5dad33b0
+      internalID: 566558793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Wall_Anim_28
+      rect:
+        serializedVersion: 2
+        x: 9092
+        y: 0
+        width: 54
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: febe31f89a30dad43acb32787485294c
+      internalID: -489669526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Wall_Anim_29
+      rect:
+        serializedVersion: 2
+        x: 9415
+        y: 0
+        width: 53
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9e0f33624f8034b9da818ba9cf172a
+      internalID: -862773319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Wall_Anim_30
+      rect:
+        serializedVersion: 2
+        x: 9732
+        y: 0
+        width: 54
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e5573a2d10fd6842829a1a7b2bc80ab
+      internalID: -534399301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Wall_Anim_31
+      rect:
+        serializedVersion: 2
+        x: 10054
+        y: 0
+        width: 54
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c94c1eeed8eb8e4daa00814f3e4c6be
+      internalID: -478321542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Wall_Anim_32
+      rect:
+        serializedVersion: 2
+        x: 10372
+        y: 0
+        width: 54
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0f9292931bbd6438f1930bbb630be0
+      internalID: -1754398060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Wall_Anim_33
+      rect:
+        serializedVersion: 2
+        x: 10694
+        y: 0
+        width: 54
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67877c8fd08b71048b5615e93fbc5068
+      internalID: 402712784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal_Wall_Anim_34
+      rect:
+        serializedVersion: 2
+        x: 11012
+        y: 0
+        width: 54
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe640124330bff459830e9ef2b7252e
+      internalID: -362072058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Portal_Wall_Anim_1: 689228866
+      Portal_Wall_Anim_10: 1659335990
+      Portal_Wall_Anim_11: 1528174054
+      Portal_Wall_Anim_12: 1896148568
+      Portal_Wall_Anim_13: -1234069436
+      Portal_Wall_Anim_14: -2112226194
+      Portal_Wall_Anim_15: -2083694273
+      Portal_Wall_Anim_16: -1168407773
+      Portal_Wall_Anim_17: 162835768
+      Portal_Wall_Anim_18: -1014462982
+      Portal_Wall_Anim_19: 1401434855
+      Portal_Wall_Anim_2: -676634265
+      Portal_Wall_Anim_20: 136288760
+      Portal_Wall_Anim_21: -52006322
+      Portal_Wall_Anim_22: 711271540
+      Portal_Wall_Anim_23: -560792689
+      Portal_Wall_Anim_24: -2082507514
+      Portal_Wall_Anim_25: 159649659
+      Portal_Wall_Anim_26: 1170259231
+      Portal_Wall_Anim_27: 566558793
+      Portal_Wall_Anim_28: -489669526
+      Portal_Wall_Anim_29: -862773319
+      Portal_Wall_Anim_3: 1138101522
+      Portal_Wall_Anim_30: -534399301
+      Portal_Wall_Anim_31: -478321542
+      Portal_Wall_Anim_32: -1754398060
+      Portal_Wall_Anim_33: 402712784
+      Portal_Wall_Anim_34: -362072058
+      Portal_Wall_Anim_4: -263636519
+      Portal_Wall_Anim_5: -1245731096
+      Portal_Wall_Anim_6: -415485621
+      Portal_Wall_Anim_7: 276339247
+      Portal_Wall_Anim_8: -423461246
+      Portal_Wall_Anim_9: 653125221
+      WallAnimation: 1007348467
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
