@@ -14,6 +14,7 @@ public class movementByWill : MonoBehaviour
     private Vector3 LastMove;
 
     public Animator anim;
+    public Animator animCollar;
     public enum animationState {Idle, Movement}
 	public animationState animState;
     public enum facingDirection { Left, Right, Up, Down}
@@ -78,7 +79,7 @@ public class movementByWill : MonoBehaviour
 		if (currentState == newState) return;
 
 		anim.Play(newState);
-		//animLeftHand.Play(newState);
+		animCollar.Play(newState);
 		//animRightHand.Play(newState);
 	}
 
