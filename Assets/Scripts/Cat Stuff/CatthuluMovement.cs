@@ -12,6 +12,8 @@ public class CatthuluMovement : MonoBehaviour
     public Rigidbody2D rb;
     public Vector2 direction;
     public float speed;
+    public AudioSource source;
+    public AudioClip clip;
 
     // Start is called before the first frame update
     void Start()
@@ -40,12 +42,15 @@ public class CatthuluMovement : MonoBehaviour
     {
         Vector2 direction = ((Vector2)target.transform.position - rb.position).normalized;
         rb.velocity =  direction * speed;
+        source.PlayOneShot(clip);
     }
     
     void FollowCat()
     {
         Vector2 catDirection = ((Vector2)cat2.transform.position - rb.position).normalized;
         rb.velocity = catDirection * speed;
+        source.PlayOneShot(clip);
+        
     }
 
     void OnCollisionEnter2D(Collision2D collision)

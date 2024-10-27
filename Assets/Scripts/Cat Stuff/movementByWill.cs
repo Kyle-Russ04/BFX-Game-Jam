@@ -12,6 +12,9 @@ public class movementByWill : MonoBehaviour
     public float moveVertical;
     public Vector3 movement;
     private Vector3 LastMove;
+    public AudioSource source;
+    public AudioClip clip;
+    
 
     public Animator anim;
     public Animator animCollar;
@@ -71,6 +74,70 @@ public class movementByWill : MonoBehaviour
         {
             LeaveGame();
             //allows the player to go back to the home screen
+        }
+        if (Input.GetKeyDown(KeyCode.W)) 
+        {
+            source.PlayOneShot(clip);
+        }
+        if(Input.GetKeyUp(KeyCode.W))
+        {
+            source.Stop();
+        }
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            source.PlayOneShot(clip);
+        }
+        if (Input.GetKeyUp(KeyCode.A))
+        {
+            source.Stop();
+        }
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            source.PlayOneShot(clip);
+        }
+        if (Input.GetKeyUp(KeyCode.S))
+        {
+            source.Stop();
+        }
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            source.PlayOneShot(clip);
+        }
+        if (Input.GetKeyUp(KeyCode.D))
+        {
+            source.Stop();
+        }
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            source.PlayOneShot(clip);
+        }
+        if (Input.GetKeyUp(KeyCode.UpArrow))
+        {
+            source.Stop();
+        }
+        if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            source.PlayOneShot(clip);
+        }
+        if (Input.GetKeyUp(KeyCode.DownArrow))
+        {
+            source.Stop();
+        }
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            source.PlayOneShot(clip);
+        }
+        if (Input.GetKeyUp(KeyCode.LeftArrow))
+        {
+            source.Stop();
+        }
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            source.PlayOneShot(clip);
+        }
+        if (Input.GetKeyUp(KeyCode.RightArrow))
+        {
+            source.Stop();
         }
     }
 
