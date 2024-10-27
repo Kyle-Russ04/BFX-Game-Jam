@@ -1,3 +1,4 @@
+using Microsoft.Unity.VisualStudio.Editor;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,7 +16,6 @@ public class CatInteraction1 : MonoBehaviour
     public float lives = 3f;
 
     public CatCollarGlow CatCollar;
-    public 
 
     void Update()
     {
@@ -75,6 +75,14 @@ public class CatInteraction1 : MonoBehaviour
             {
                 interactable.Interact(catPlayer);
             }
+        }
+    }
+
+    public void changeSprite()
+    {
+        if (lives == 2)
+        {
+            //change sprite
         }
     }
 }

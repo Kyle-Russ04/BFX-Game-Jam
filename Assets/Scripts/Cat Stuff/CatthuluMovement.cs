@@ -12,7 +12,6 @@ public class CatthuluMovement : MonoBehaviour
     public Rigidbody2D rb;
     public Vector2 direction;
     public float speed;
-    
 
     // Start is called before the first frame update
     void Start()
@@ -57,6 +56,7 @@ public class CatthuluMovement : MonoBehaviour
             Debug.Log("Hit the cat");
             Debug.Log("Loose a life");
             cat2.lives -= 1f;
+
         }
     }
 }
