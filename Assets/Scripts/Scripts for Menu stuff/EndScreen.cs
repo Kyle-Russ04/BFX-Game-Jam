@@ -10,7 +10,7 @@ public class EndScreen : MonoBehaviour
 {
     public void FinishGame()
     {
-      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);  
+      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 5);  
     }
 
   

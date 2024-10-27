@@ -3,16 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Mainmenu : MonoBehaviour
+public class Cutscene : MonoBehaviour
 {
-    public void BeginGame()
+    public void Game()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
-    public void EndGame()
-    {
-        Debug.Log("Quit game now");
-        Application.Quit();
-    }
-
 }

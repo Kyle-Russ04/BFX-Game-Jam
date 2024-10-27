@@ -87,7 +87,7 @@ public class movementByWill : MonoBehaviour
     {
         Debug.Log("return to the main menu");
         //debug.log is for developer use
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
         //changes the scene you are on to the home/ main menu
         Cursor.lockState = CursorLockMode.Confined;
         //stops the cursor from being locked in place on the screen
