@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f16f86d1fd9621f42b0ec9e71f68762f
+guid: ad015918743a1b844a5c0294ea6bdaaf
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cody_Front_Glow_Greyscale_Collar_Anim_0
+      name: Cody_Glow_Greyscale_Collar_Anim 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -111,14 +111,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c11a1b4bd4802449a55fc2b25186a1e
-      internalID: -864873840
+      spriteID: 5b80240df1f1c0649898a5a50c889745
+      internalID: 733323411
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cody_Front_Glow_Greyscale_Collar_Anim_1
+      name: Cody_Glow_Greyscale_Collar_Anim 1_1
       rect:
         serializedVersion: 2
         x: 32
@@ -132,14 +132,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0adf509bedbf7b3468a2600a2046b128
-      internalID: -418560542
+      spriteID: 151ea86559df31944ac983dd6a9b1ebb
+      internalID: 638702330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cody_Front_Glow_Greyscale_Collar_Anim_2
+      name: Cody_Glow_Greyscale_Collar_Anim 1_2
       rect:
         serializedVersion: 2
         x: 64
@@ -153,14 +153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af86574485482ff4fba73f40853f1619
-      internalID: 841500769
+      spriteID: b87343b25b446d249b1a599cc421068c
+      internalID: 920547331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cody_Front_Glow_Greyscale_Collar_Anim_3
+      name: Cody_Glow_Greyscale_Collar_Anim 1_3
       rect:
         serializedVersion: 2
         x: 96
@@ -174,14 +174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d2882008700c3a40b6ca23eab328636
-      internalID: 573696475
+      spriteID: 531bed06d6c05714ba01dbe797cc1d2e
+      internalID: -151722078
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cody_Front_Glow_Greyscale_Collar_Anim_4
+      name: Cody_Glow_Greyscale_Collar_Anim 1_4
       rect:
         serializedVersion: 2
         x: 128
@@ -195,14 +195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd1187797e73f8e4aa50fb0ce27bb3c0
-      internalID: 1432597903
+      spriteID: 6eb04c79298d97f44b2d387768f90571
+      internalID: 2094365918
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cody_Front_Glow_Greyscale_Collar_Anim_5
+      name: Cody_Glow_Greyscale_Collar_Anim 1_5
       rect:
         serializedVersion: 2
         x: 160
@@ -216,14 +216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c26dcd3e811c2d42a3250e89acb90d5
-      internalID: -1250246076
+      spriteID: bb5b4b0d7e0a9ec438b188709f0d27c8
+      internalID: 372593926
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cody_Front_Glow_Greyscale_Collar_Anim_6
+      name: Cody_Glow_Greyscale_Collar_Anim 1_6
       rect:
         serializedVersion: 2
         x: 192
@@ -237,14 +237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1adbf5e1210173b449cfb99b73ec6238
-      internalID: -793614644
+      spriteID: 6803f9fe0196c914da1fd81ff0f4ac53
+      internalID: 968018016
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cody_Front_Glow_Greyscale_Collar_Anim_7
+      name: Cody_Glow_Greyscale_Collar_Anim 1_7
       rect:
         serializedVersion: 2
         x: 224
@@ -258,8 +258,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8c1ce0ed5669274591c42812f07aa3c
-      internalID: -824453115
+      spriteID: d1020c85ca650c9458bbf77bc5d67b0c
+      internalID: 1826616600
       vertices: []
       indices: 
       edges: []
@@ -275,14 +275,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Cody_Front_Glow_Greyscale_Collar_Anim_0: -864873840
-      Cody_Front_Glow_Greyscale_Collar_Anim_1: -418560542
-      Cody_Front_Glow_Greyscale_Collar_Anim_2: 841500769
-      Cody_Front_Glow_Greyscale_Collar_Anim_3: 573696475
-      Cody_Front_Glow_Greyscale_Collar_Anim_4: 1432597903
-      Cody_Front_Glow_Greyscale_Collar_Anim_5: -1250246076
-      Cody_Front_Glow_Greyscale_Collar_Anim_6: -793614644
-      Cody_Front_Glow_Greyscale_Collar_Anim_7: -824453115
+      Cody_Glow_Greyscale_Collar_Anim 1_0: 733323411
+      Cody_Glow_Greyscale_Collar_Anim 1_1: 638702330
+      Cody_Glow_Greyscale_Collar_Anim 1_2: 920547331
+      Cody_Glow_Greyscale_Collar_Anim 1_3: -151722078
+      Cody_Glow_Greyscale_Collar_Anim 1_4: 2094365918
+      Cody_Glow_Greyscale_Collar_Anim 1_5: 372593926
+      Cody_Glow_Greyscale_Collar_Anim 1_6: 968018016
+      Cody_Glow_Greyscale_Collar_Anim 1_7: 1826616600
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
