@@ -78,12 +78,5 @@ public class CatInteraction1 : MonoBehaviour
         }
     }
 
-    public void changeSprite()
-    {
-        if (lives == 2)
-        {
-            //change sprite
-        }
-    }
 }
 

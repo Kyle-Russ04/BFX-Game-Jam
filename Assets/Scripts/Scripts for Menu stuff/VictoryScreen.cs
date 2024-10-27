@@ -7,7 +7,7 @@ public class VictoryScreen : MonoBehaviour
 {
     public void FinishGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 5);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 6);
     }
 
 
